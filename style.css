@@ -62,9 +62,30 @@ a {
   align-items: center;
 }
 
-p{
-  margin-top: 2rem;
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+  
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 0%;
+    
+  }
+
+  1% {
+    font-size: 2rem;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 ul {
   margin-top: 4rem;
 
