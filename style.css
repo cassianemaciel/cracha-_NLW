@@ -17,9 +17,9 @@ body {
 
 main {
   background: url(images/background.svg) no-repeat center/cover;
-  width: 100vw;
+  width: 100%;
   min-height: 850px;
-  height: 100vh;
+  height: 100%;
 }
 .conteiner {
   max-width: 250px;
